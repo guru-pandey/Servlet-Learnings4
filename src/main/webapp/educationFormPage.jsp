@@ -1,7 +1,7 @@
 <html>
 <body>
 
-<form action="nextToExperienceForm" method="post">                             <!-- action="nextToExperienceForm" → "nextToExperienceForm" is the URL-pattern of Servlet. When user clicks submit button, browser sends HTTP POST request to http://localhost:8080/Servlet-Learnings4/nextToExperienceForm --> <!-- "Servlet-Learnings4" is Context Path (Project name) and "/nextToExperienceForm" is mapped with Servlet class (like MyServlet) --> <!-- method="post" tells browser to send form data inside HTTP POST request body, so request will be handled inside doPost() method -->
+<form action="nextToReviewPage" method="post">                             <!-- action="nextToReviewPage" → "nextToReviewPage" is the URL-pattern of Servlet. When user clicks submit button, browser sends HTTP POST request to http://localhost:8080/Servlet-Learnings4/nextToReviewPage--> <!-- "Servlet-Learnings4" is Context Path (Project name) and "/nextToReviewPage" is mapped with Servlet class (like MyServlet) --> <!-- method="post" tells browser to send form data inside HTTP POST request body, so request will be handled inside doPost() method -->
 
     Enter Your University Name: <input type="text" name="university">            <!-- name="university" is Parameter name (key). Whatever user types here, browser sends it as key-value pair like university=MGKVP university -->  <!-- In Servlet, we retrieve this value using request.getParameter("university") -->
     <br>
@@ -17,7 +17,7 @@
 
 <!-- All the below code is for styling & designing the form-->
 <head>
-    <title>Personal Info Form Page</title>
+    <title>Education Details Form Page</title>
 
     <style>
 

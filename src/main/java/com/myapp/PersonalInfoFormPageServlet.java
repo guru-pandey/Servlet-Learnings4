@@ -9,7 +9,7 @@ import jakarta.servlet.http.HttpSession;
 
 import java.io.IOException;
 
-@WebServlet("/nextToEducationForm")                                       // We use annotations for Servlet configuration and mapping. When client(browser) sends "/nextToEducationForm"" url-pattern request, then PersonalInfoFormPageServlet class will be identified by Servlet Container through this annotation and executed.
+@WebServlet("/nextToEducationForm")                                       // We use annotations for Servlet configuration and mapping. When client(browser) sends "/nextToEducationForm" url-pattern request, then PersonalInfoFormPageServlet class will be identified by Servlet Container through this annotation and executed.
 public class PersonalInfoFormPageServlet extends HttpServlet {
 
     @Override
